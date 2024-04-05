@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Transition Example</title>
+<style>
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transition: width 2s, height 2s, background-color 2s; /* Specify properties to transition and duration */
+    }
+
+    .box:hover {
+        width: 200px; /* New width on hover */
+        height: 200px; /* New height on hover */
+        background-color: blue; /* New background color on hover */
+    }
+</style>
+</head>
+<body>
+
+<div class="box"></div>
+
+</body>
+</html>
